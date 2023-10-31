@@ -1,10 +1,9 @@
 pkgs:
   turbo-tele:
     version: 0.0.0
-    description: "Provides access to well-known folders across several operating systems"
+    description: "null"
     source_url: "https://github.com/3JoB/turbo-tele"    
-    root: turbo.zig
+    root: turbo-tele.zig
     files:
       LICENSE
       README.md
-      RESOURCES.md
