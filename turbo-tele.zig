@@ -6,6 +6,10 @@ export const Config = struct {
     updates: u128 = 100,
 };
 
+pub const Bot = struct {
+
+};
+
 pub fn new(conf: Config) !void{
     _ = conf;
 }
