@@ -7,7 +7,8 @@ export const Config = struct {
 };
 
 pub const Bot = struct {
-
+    id: i64 = 0,
+    username: []u8 = undefined
 };
 
 pub fn new(conf: Config) !void{
